@@ -1,4 +1,5 @@
 import React from 'react'
+import '../style/header.css'
 
 const Header = React.forwardRef((props, ref) => {
   return (
@@ -6,8 +7,8 @@ const Header = React.forwardRef((props, ref) => {
         <div className='header-items'>
           <div className='header-text'>
             <h1>Hi, I'm Errol Highberg</h1>
-            <h3>Full Stack Developer</h3>
-            <h3>Data Scientist</h3>
+            <h2>Full Stack Developer</h2>
+            <h2>Data Scientist</h2>
           </div>
           <p>Check out my work</p>
         </div>

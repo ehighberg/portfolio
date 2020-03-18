@@ -53,6 +53,7 @@ table {
 
 :root {
   --offwhite: #f8f8f8;
+	--offwhite-trans: #f8f8f800;
   --offblack: #222;
 }
 
