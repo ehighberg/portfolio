@@ -9,7 +9,7 @@ const Header = props => {
           <h3>Full Stack Developer</h3>
           <h3>Data Scientist</h3>
         </div>
-        <a href='#projects'>Check out my work</a>
+        <a target="_blank" rel="noopener noreferrer" href='#projects'>Check out my work</a>
       </div>
     </header>
   )

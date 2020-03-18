@@ -8,11 +8,11 @@ const ProjectCard = props => {
     <article>
       <img alt={`project ${name} thumbnail`} src={thumbUrl} />
       <section>
-        <h1><a href={siteUrl}>{name}</a></h1>
+        <h1><a target="_blank" rel="noopener noreferrer" href={siteUrl}>{name}</a></h1>
         <h3>{projectType}</h3>
         <p className='project-card-description'>{description}</p>
-        <a href={siteUrl}>Website</a>
-        <a href={gitUrl}>Github</a>
+        <a target="_blank" rel="noopener noreferrer" href={siteUrl}>Website</a>
+        <a target="_blank" rel="noopener noreferrer" href={gitUrl}>Github</a>
         <p>Technologies used</p>
         <ul>
           {techList.map((tech, i) => (
