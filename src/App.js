@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { createRef } from 'react'
 
 import Nav from './component/Nav'
 import Header from './component/Header'
@@ -10,10 +10,10 @@ const App = () => {
   return (
     <React.Fragment>
       <Nav />
-      <Header ref={useRef()} />
-      <Projects ref={useRef()} />
-      <About ref={useRef()} />
-      <Contact ref={useRef()} />
+      <Header ref={createRef()} />
+      <Projects ref={createRef()} />
+      <About ref={createRef()} />
+      <Contact ref={createRef()} />
     </React.Fragment>
   )
 }

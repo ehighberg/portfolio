@@ -1,6 +1,6 @@
 import React from 'react'
 
-const About = props => {
+const About = React.forwardRef((props, ref) => {
   return (
     <summary>
       <h1>About Me</h1>
@@ -13,6 +13,6 @@ const About = props => {
       </ul>
     </summary>
   )
-}
+})
 
 export default About

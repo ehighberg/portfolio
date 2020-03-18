@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contact = props => {
+const Contact = React.forwardRef((props, ref) => {
   return (
     <footer>
       <h1>Contact</h1>
@@ -9,6 +9,6 @@ const Contact = props => {
       <h1>FORM</h1>
     </footer>
   )
-}
+})
 
 export default Contact

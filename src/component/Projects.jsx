@@ -3,7 +3,7 @@ import React from 'react'
 import ProjectCard from './ProjectCard'
 import projectList from '../projectList'
 
-const Projects = props => {
+const Projects = React.forwardRef((props, ref) => {
   return (
     <main>
       <h1>Projects</h1>
@@ -12,6 +12,6 @@ const Projects = props => {
       )}
     </main>
   )
-}
+})
 
 export default Projects
