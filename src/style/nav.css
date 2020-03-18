@@ -14,8 +14,24 @@ nav p {
   justify-content: space-between;
 }
 
+.nav-items p:hover {
+  cursor: pointer;
+}
+
 .nav-name {
   text-align: center;
   margin-bottom: 0.5rem;
   text-decoration: underline;
+}
+
+
+@media (min-width: 500px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-items p {
+    margin-left: 5vw;
+  }
 }
