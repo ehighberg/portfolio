@@ -1,0 +1,9 @@
+nav {
+  padding: 1em 2em;
+}
+
+nav p {
+  text-decoration: none;
+  color: var(--offblack);
+  font-size: 1.2rem;
+}

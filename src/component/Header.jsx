@@ -5,11 +5,11 @@ const Header = props => {
     <header>
       <div className='header-items'>
         <div className='header-text'>
-          <h1>Errol Highberg</h1>
+          <h1>Hi, I'm Errol Highberg</h1>
           <h3>Full Stack Developer</h3>
           <h3>Data Scientist</h3>
         </div>
-        <a target="_blank" rel="noopener noreferrer" href='#projects'>Check out my work</a>
+        <p>Check out my work</p>
       </div>
     </header>
   )

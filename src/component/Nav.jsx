@@ -1,15 +1,16 @@
 import React from 'react'
+import '../style/nav.css'
 
 const Nav = props => {
   return (
     <nav>
       <div className='nav-name'>
-        <a target="_blank" rel="noopener noreferrer" href='#home'>Errol Highberg</a>
+        <p>Errol Highberg</p>
       </div>
       <div className='nav-items'>
-        <a target="_blank" rel="noopener noreferrer" href='#projects'>Projects</a>
-        <a target="_blank" rel="noopener noreferrer" href='#about'>About</a>
-        <a target="_blank" rel="noopener noreferrer" href='#contact'>Contact</a>
+        <p>Projects</p>
+        <p>About</p>
+        <p>Contact</p>
       </div>
     </nav>
   )
