@@ -19,3 +19,15 @@ summary > p {
 .about-zinger {
   font-weight: lighter;
 }
+
+.about-links {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-icon {
+  width: 70px;
+  height: 70px;
+  filter: drop-shadow(2px 2px 2px #0008);
+}
