@@ -27,8 +27,9 @@ const Contact = React.forwardRef((props, ref) => {
           value={message}
           placeholder='Your Message'
           onChange={(elem) => setMessage(elem.target.value)}
+          rows='12'
         />
-        <button type="submit">Send</button>
+      <button type="submit">Send</button>
       </form>
     </footer>
   )
