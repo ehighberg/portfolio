@@ -7,3 +7,11 @@ header {
   min-width: 100vw;
   z-index: -1;
 }
+
+.header-items {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  top: 35vh;
+}

@@ -12,3 +12,24 @@ const Contact = React.forwardRef((props, ref) => {
 })
 
 export default Contact
+
+
+// Code generated in part by formspree.io
+
+// <form
+//   action="https://formspree.io/mwkqnknp"
+//   method="POST"
+// >
+//   <label>
+//     Your email:
+//     <input type="text" name="_replyto">
+//   </label>
+//   <label>
+//     Your message:
+//     <textarea name="message"></textarea>
+//   </label>
+//
+//   <!-- your other form fields go here -->
+//
+//   <button type="submit">Send</button>
+// </form>
