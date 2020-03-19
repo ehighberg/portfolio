@@ -1,0 +1,22 @@
+main > h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 6rem auto;
+}
+
+.projects-container > article {
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  justify-content: center;
+  grid-column-gap: 50px;
+}
+
+.projects-container > article > img {
+  .grid-column: 2 / 2;
+  margin-left: auto;
+}
+
+.projects-container > article > section {
+  .grid-column: 4 / 4;
+}
