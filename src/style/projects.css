@@ -55,7 +55,7 @@ main > h1 {
 }
 
 .project-card-links > a {
-  color: var(--link-blue);
+  color: var(--link-dark-blue);
   display: block;
   font-size: 1.2rem;
   line-height: 1.5rem;
