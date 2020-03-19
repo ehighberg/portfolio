@@ -14,4 +14,31 @@ header {
   margin: 0 auto;
   position: relative;
   top: 35vh;
+  max-width: 480px;
+  text-align: center;
+}
+
+.header-text {
+  color: var(--offwhite);
+  text-shadow: 1px 1px 1px black;
+}
+
+.header-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-text h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-items > p {
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  background-color: white;
+  display: inline;
+  padding: 1rem;
+  width: 12rem;
 }
