@@ -1,0 +1,11 @@
+header {
+  background: url('/assets/header_background.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: -1;
+}
+
+.header-items {
+  margin-top: 4rem;
+}
