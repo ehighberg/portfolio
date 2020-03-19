@@ -6,7 +6,13 @@ const ProjectCard = props => {
 
   return (
     <article>
-      <img alt={`project ${name} thumbnail`} src={thumbUrl} />
+      <a target="_blank" rel="noopener noreferrer" href={siteUrl}>
+        <div className='project-card-bg'
+          style={{
+            'backgroundImage': `url(${thumbUrl})`
+          }}>
+        </div>
+      </a>
       <section>
         <h1><a target="_blank" rel="noopener noreferrer" href={siteUrl}>{name}</a></h1>
         <h3>{projectType}</h3>

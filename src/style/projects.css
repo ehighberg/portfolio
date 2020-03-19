@@ -12,11 +12,16 @@ main > h1 {
   grid-column-gap: 50px;
 }
 
-.projects-container > article > img {
-  .grid-column: 2 / 2;
-  margin-left: auto;
+.projects-container > article > a {
+  .grid-column: 1 / 1;
 }
 
 .projects-container > article > section {
-  .grid-column: 4 / 4;
+  .grid-column: 2 / 2;
+}
+
+.project-card-bg {
+  background-size: cover;
+  height: 400px;
+  max-width: 800px;
 }
