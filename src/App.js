@@ -9,8 +9,8 @@ import Contact from './component/Contact'
 const App = () => {
   return (
     <React.Fragment>
-      <Header ref={createRef()} />
       <Nav />
+      <Header ref={createRef()} />
       <Projects ref={createRef()} />
       <About ref={createRef()} />
       <Contact ref={createRef()} />
