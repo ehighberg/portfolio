@@ -13,18 +13,22 @@ const ProjectCard = props => {
           }}>
         </div>
       </a>
-      <section>
-        <h1><a target="_blank" rel="noopener noreferrer" href={siteUrl}>{name}</a></h1>
+      <section className='project-card-info-container'>
+        <a target="_blank" rel="noopener noreferrer" href={siteUrl}>{name}</a>
         <h3>{projectType}</h3>
         <p className='project-card-description'>{description}</p>
-        <a target="_blank" rel="noopener noreferrer" href={siteUrl}>Website</a>
-        <a target="_blank" rel="noopener noreferrer" href={gitUrl}>Github</a>
-        <p>Technologies used</p>
-        <ul>
-          {techList.map((tech, i) => (
-            <li key={i}><p className='project-tech-img'>{tech}</p></li>
-          ))}
-        </ul>
+        <div className='project-card-links'>
+          <a target="_blank" rel="noopener noreferrer" href={siteUrl}>Website</a>
+          <a target="_blank" rel="noopener noreferrer" href={gitUrl}>Github</a>
+        </div>
+        <div className='project-card-tech-container'>
+          <p>Technologies used</p>
+          <ul className='project-card-tech-list'>
+            {techList.map((tech, i) => (
+              <li key={i}><p className='project-card-tech-img'>{tech}</p></li>
+            ))}
+          </ul>
+        </div>
       </section>
     </article>
   )

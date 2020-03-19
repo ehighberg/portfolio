@@ -28,12 +28,50 @@ main > h1 {
   box-shadow: 2px 2px 5px var(--box-shadow-gray);
 }
 
+.project-card-info-container {
+  margin-bottom: 6rem;
+}
+
+.project-card-info-container > *:not(:first-child) {
+  margin-top: 25px;
+}
+
+.project-card-info-container > a {
+  color: var(--link-blue);
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card-info-container > h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.project-card-description {
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.project-card-links > a {
+  color: var(--link-blue);
+  display: block;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
 @media (max-width: 1000px) {
   .projects-container > article {
     display: initial;
   }
 
   .project-card-bg {
-    margin-bottom: 2vh;
+    margin-bottom: 25px;
+  }
+
+  .project-card-info-container {
+    width: 96vw;
+    margin: 0 auto;
   }
 }
