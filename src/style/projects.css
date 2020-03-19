@@ -22,6 +22,18 @@ main > h1 {
 
 .project-card-bg {
   background-size: cover;
+  background-position: center;
   height: 400px;
   max-width: 800px;
+  box-shadow: 2px 2px 5px var(--box-shadow-gray);
+}
+
+@media (max-width: 1000px) {
+  .projects-container > article {
+    display: initial;
+  }
+
+  .project-card-bg {
+    margin-bottom: 2vh;
+  }
 }
