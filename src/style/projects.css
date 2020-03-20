@@ -33,7 +33,7 @@ section {
 }
 
 .project-card-info-container {
-
+  margin-bottom: 6rem;
 }
 
 .project-card-info-container > *:not(:first-child) {
@@ -88,5 +88,6 @@ section {
   .project-card-info-container {
     width: 96vw;
     margin: 0 auto;
+    margin-bottom: 6rem;
   }
 }

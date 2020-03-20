@@ -3,7 +3,7 @@ const projectList = [
     name: 'Terrarium',
     thumbUrl: '/assets/thumb-terrarium.png',
     projectType: 'Full-stack / Data Science App',
-    description: 'Terrarium is a web interface for running, tracking, and managing machine learning (ML) experiments. Back end routing with Ruby on Rails and ML with Python and NumPy.',
+    description: 'Terrarium is a web interface for running, tracking, and managing machine learning (ML) experiments. Served by Ruby on Rails and ML performed with Python and NumPy.',
     siteUrl: 'https://terrarium-ml.surge.sh/',
     gitUrl: 'https://github.com/ehighberg/terrarium',
     techList: ['react', 'python', 'numpy', 'd3', 'ruby']
