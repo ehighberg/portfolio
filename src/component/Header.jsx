@@ -10,7 +10,7 @@ const Header = React.forwardRef((props, ref) => {
           <h2>Full Stack Developer</h2>
           <h2>Data Scientist</h2>
         </div>
-        <p>Check out my work</p>
+        <a className='header-button' href='#projects'>Check out my work</a>
       </div>
     </header>
   )
