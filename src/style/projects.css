@@ -5,6 +5,10 @@ main > h1 {
   margin: 6rem auto;
 }
 
+section {
+  margin-bottom: 8rem;
+}
+
 .projects-container > article {
   display: grid;
   grid-template-columns: 40vw 40vw;
@@ -29,7 +33,7 @@ main > h1 {
 }
 
 .project-card-info-container {
-  margin-bottom: 6rem;
+
 }
 
 .project-card-info-container > *:not(:first-child) {

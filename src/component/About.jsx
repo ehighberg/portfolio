@@ -5,7 +5,7 @@ const About = React.forwardRef((props, ref) => {
   return (
     <summary id='about'>
       <h1>About Me</h1>
-      <p className='about-main'>Full-stack developer and data scientist, driven to understand systems and their interactions. Reinforced by attention to detail and determination, I welcome and conquer challenges in any domain.</p>
+      <p className='about-main'>I am driven to understand systems and their interactions as a full-stack developer and data scientist. Reinforced by attention to detail and determination, I welcome and conquer challenges in any domain.</p>
       <br />
       <p className='about-zinger'>Ask me about high-concept science-fiction or non-Newtonian calculus.</p>
       <div className='about-links'>

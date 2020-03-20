@@ -6,14 +6,16 @@ const ProjectCard = props => {
 
   const techUrls = {
     react: 'https://s3.amazonaws.com/image-urls/images/react_icon.png',
+    js: 'https://s3.amazonaws.com/image-urls/images/jsicon.png',
     node: 'https://s3.amazonaws.com/image-urls/images/nodejs.png',
-    html: 'https://s3.amazonaws.com/image-urls/images/nodejs.png',
+    html: 'https://s3.amazonaws.com/image-urls/images/htmlicon.png',
     css: 'https://s3.amazonaws.com/image-urls/images/css.png',
     ruby: 'https://s3.amazonaws.com/image-urls/images/ruby.png',
     d3: 'https://raw.githubusercontent.com/d3/d3-logo/master/d3.png',
     python: 'https://www.python.org/static/opengraph-icon-200x200.png',
     keras: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Keras_Logo.jpg',
-    sklearn: 'https://www.stat4decision.com/wp-content/uploads/2017/09/scikit-learn.png'
+    sklearn: 'https://www.stat4decision.com/wp-content/uploads/2017/09/scikit-learn.png',
+    numpy: 'https://user-images.githubusercontent.com/98330/63813335-20cd4b80-c8e2-11e9-9c04-e4dbf7285aa1.png'
   }
 
   const fetchImgUrl = tech => techUrls[tech]
