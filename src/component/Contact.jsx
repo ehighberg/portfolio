@@ -7,7 +7,7 @@ const Contact = React.forwardRef((props, ref) => {
   const [message, setMessage] = useState('')
 
   return (
-    <footer>
+    <footer id='contact'>
       <h1>Contact</h1>
       <p>Interested in collaborating?</p>
       <p>Send me an email!</p>

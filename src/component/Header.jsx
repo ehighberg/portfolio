@@ -3,7 +3,7 @@ import '../style/header.css'
 
 const Header = React.forwardRef((props, ref) => {
   return (
-    <header ref={ref}>
+    <header id='home'>
       <div className='header-items'>
         <div className='header-text'>
           <h1>Hi, I'm Errol Highberg</h1>

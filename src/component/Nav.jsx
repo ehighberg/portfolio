@@ -5,12 +5,12 @@ const Nav = props => {
   return (
     <nav>
       <div className='nav-name'>
-        <p>Errol Highberg</p>
+        <p><a href='#home'>Errol Highberg</a></p>
       </div>
       <div className='nav-items'>
-        <p>Projects</p>
-        <p>About</p>
-        <p>Contact</p>
+        <p><a href='#projects'>Projects</a></p>
+        <p><a href='#about'>About</a></p>
+        <p><a href='#contact'>Contact</a></p>
       </div>
     </nav>
   )
