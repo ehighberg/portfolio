@@ -61,6 +61,17 @@ main > h1 {
   line-height: 1.5rem;
 }
 
+.project-card-tech-list {
+  display: flex;
+}
+
+.project-card-tech-img {
+  width: 60px;
+  height: 60px;
+  margin-right: 1vw;
+  margin-top: 1vh;
+}
+
 @media (max-width: 1000px) {
   .projects-container > article {
     display: initial;

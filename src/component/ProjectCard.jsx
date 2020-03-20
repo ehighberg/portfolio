@@ -4,6 +4,20 @@ const ProjectCard = props => {
   const { name, thumbUrl, projectType, description,
     siteUrl, gitUrl, techList } = props.project
 
+  const techUrls = {
+    react: 'https://s3.amazonaws.com/image-urls/images/react_icon.png',
+    node: 'https://s3.amazonaws.com/image-urls/images/nodejs.png',
+    html: 'https://s3.amazonaws.com/image-urls/images/nodejs.png',
+    css: 'https://s3.amazonaws.com/image-urls/images/css.png',
+    ruby: 'https://s3.amazonaws.com/image-urls/images/ruby.png',
+    d3: 'https://raw.githubusercontent.com/d3/d3-logo/master/d3.png',
+    python: 'https://www.python.org/static/opengraph-icon-200x200.png',
+    keras: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Keras_Logo.jpg',
+    sklearn: 'https://www.stat4decision.com/wp-content/uploads/2017/09/scikit-learn.png'
+  }
+
+  const fetchImgUrl = tech => techUrls[tech]
+
   return (
     <article>
       <a target="_blank" rel="noopener noreferrer" href={siteUrl}>
@@ -25,7 +39,7 @@ const ProjectCard = props => {
           <p>Technologies used</p>
           <ul className='project-card-tech-list'>
             {techList.map((tech, i) => (
-              <li key={i}><p className='project-card-tech-img'>{tech}</p></li>
+              <li key={i}><img className='project-card-tech-img' alt='tech-used' src={fetchImgUrl(tech)}/></li>
             ))}
           </ul>
         </div>
