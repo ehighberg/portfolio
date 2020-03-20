@@ -9,7 +9,7 @@ const About = React.forwardRef((props, ref) => {
       <br />
       <p className='about-zinger'>Ask me about high-concept science-fiction or non-Newtonian calculus.</p>
       <div className='about-links'>
-        <a target="_blank" rel="noopener noreferrer" href='RESUME'>
+        <a target="_blank" rel="noopener noreferrer" href='https://docdro.id/Ep2Si4q'>
           <img className='about-icon' alt='resume-icon' src='https://s3.amazonaws.com/image-urls/images/resume-icon-16.jpg' />
         </a>
         <a target="_blank" rel="noopener noreferrer" href='https://linkedin.com/in/errol-highberg'>
